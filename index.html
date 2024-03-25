@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tea Timer</h1>
+        <div class="timer">
+            <h2>Select your tea type:</h2>
+            <select id="teaType">
+                <option value="green">Green Tea (3 minutes)</option>
+                <option value="black">Black Tea (5 minutes)</option>
+                <option value="herbal">Herbal Tea (7 minutes)</option>
+            </select>
+            <button onclick="startTimer()">Start Timer</button>
+            <div id="countdown"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
